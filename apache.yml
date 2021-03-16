@@ -17,9 +17,9 @@
         - net-tools
         - apache2
        
-    - name : Start service apache , if not started
+    - name : Start service apache2 , if not started
       service :
-       name : apache started
+       name : apache2 started
        state : started
        enabled : True
        
