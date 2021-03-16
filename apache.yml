@@ -15,14 +15,7 @@
       vars:
        packages :
         - net-tools
-        - nginx
         - httpd
-        
-    - name : Start service nginx , if not started
-      service :
-       name : nginx started
-       state : started
-       enabled : True
        
     - name : Start service httpd , if not started
       service :
