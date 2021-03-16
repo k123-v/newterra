@@ -1,7 +1,5 @@
 provider "aws" {
   region     = "us-east-1"
-  access_key = "AKIA5SFJZBUC5RO22WUN"
-  secret_key = "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"
 }
 data "aws_vpc" "webservervpc" {
     filter {
